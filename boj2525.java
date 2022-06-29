@@ -6,20 +6,20 @@ public class boj2525 {
         int h = sc.nextInt();
         int m = sc.nextInt();
         int value = sc.nextInt();
-
+        
         m += value;
-		if(m >= 60) {
-			while(m >= 60){
-				m -= 60;
-				h++;
-
-				if(h >= 24){
-					h = 0;
+        if(m >= 60) {
+            while(m >= 60){
+                m -= 60;
+                h++;
+                
+                if(h >= 24){
+                    h = 0;
                 }
             }
         }
         
-		System.out.println(h + " " + m);
+        System.out.println(h + " " + m);
         
         sc.close();
     }
