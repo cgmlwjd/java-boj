@@ -18,6 +18,7 @@ public class boj2525 {
                 }
             }
         }
+        
 		System.out.println(h + " " + m);
         
         sc.close();
