@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class boj2525 {
     public static void main(String[] args){
@@ -18,7 +18,7 @@ public class boj2525 {
                 }
             }
         }
-        
+
         System.out.println(h + " " + m);
         
         sc.close();
