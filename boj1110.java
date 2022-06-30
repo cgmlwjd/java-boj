@@ -18,6 +18,7 @@ public class boj1110 {
 
             n = d;
             cnt++;
+            
             if(num == d){
                 break;
             }

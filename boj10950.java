@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class boj10950 {
     public static void main(String[] args){
